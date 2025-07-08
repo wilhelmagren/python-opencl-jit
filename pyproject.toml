@@ -1,0 +1,9 @@
+[project]
+name = "python-opencl-jit"
+version = "0.1.0"
+description = "Python functions for LRU cached JIT compiler for opencl kernels."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyopencl>=2025.2.5",
+]
