@@ -272,8 +272,8 @@ if __name__ == "__main__":
     javg = benchmark("jit", runs=runs)
     jcavg = benchmark("jit-cached", runs=runs)
 
-    print("\n------------------- SUMMARY -------------------")
+    print("\n---------------------- SUMMARY -------------------")
     print(f"[NumPy]\t\taverage: {navg:.3f} ms\t({runs=})")
     print(f"[JIT]\t\taverage: {javg:.3f} ms\t({runs=})")
     print(f"[JIT-CACHED]\taverage: {jcavg:.3f} ms\t({runs=})")
-    print("-----------------------------------------------")
+    print("--------------------------------------------------")
